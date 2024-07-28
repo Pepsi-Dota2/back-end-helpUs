@@ -9,5 +9,7 @@ export default {
     DB_SCHEMA: process.env.DB_SCHEMA,
     BASE_PATH: `${process.env.BASE_PATH}`,
     KEY_SECRET : process.env.KEY_SECRET,
-    ENCRYPTION_KEY: process.env.ENCRYPTION_KEY
+    KEY_PUBLIC: process.env.KEY_PUBLIC,
+    ENCRYPTION_KEY: process.env.ENCRYPTION_KEY,
+    PRISMA_DB_CONN: process.env.PRISMA_DB_CONN
 }

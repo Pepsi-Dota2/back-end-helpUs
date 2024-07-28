@@ -1,5 +1,9 @@
 import crypto, { createHash } from 'crypto'
 import env from '../env'
+// const key1 = crypto.randomBytes(256).toString('hex')
+// const key2 = crypto.randomBytes(256).toString('hex')
+// console.table({key1 , key2})
+
 const ENCRYPTION_KEY = env.ENCRYPTION_KEY || "2e6e454d1706f9e58ed155429a4809dc68025091857bb700e8aeaf9566a63107"
 const IV_LENGTH = 16
 
